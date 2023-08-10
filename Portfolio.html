@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-compatible" content="IE=edge">
+  <meta name="viewport" content="width=dvice-width, initial-scale=1.0">
+  <title>Sameer's Dev Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <div class="left">Sameer's Portfolio</div>
+      <div class="right">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="firstSection">
+      <div class="leftSection">
+        Hi, My name is <span class="text-purpel">Sameer</span>
+        <div>I am a </div>
+        <span id="element"></span>
+        <div class="button">
+          <a href="#resume"><button class="btn">Download Resume</button></a></li>
+          <a href="https://github.com/t-sameer/CODSOFT"><button class="btn">Visit Github</button></a></li>
+        </div>
+      </div>
+      <div class="rightSection">
+        <img src="img/bg.png">
+      </div>
+
+    </section>
+    <hr>
+    
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="img/profile-pic.png" alt="">
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About Me</h2>
+        <h3>Web Developer</h3><br>
+        <p>
+          Passionate web developer with a keen eye for clean and dynamic user experiences. Proficient in front-end and back-end technologies, creating seamless, responsive designs. Constantly curious about the latest trends and best practices, driving innovation and optimization. Dedicated to transforming complex concepts into elegant, efficient code. Committed to collaborating with teams to deliver impactful digital solutions.
+        </p>
+      </div></section>    
+    <hr>
+
+    <section class="skillSection" id="skills">
+        <h1 class="heading" id="Skills">Skills</h1>
+        
+      <div class="box">
+        <div class="box-items">
+          <img src="img/html.png" alt="" /><br />
+          <h3>HTML</h3>
+          <p>
+            HTML (HyperText Markup Language) is the code that is used to
+            structure a web page and its content. For example, content could
+            be structured within a set of paragraphs, a list of bulleted
+            points, or using images and data tables. As the title suggests,
+            this article will give you a basic understanding of HTML and its
+            functions.
+          </p>
+        </div>
+        <div class="box-items">
+          <img src="img/css.png" alt="" /><br />
+          <h3>CSS</h3>
+          <p>
+            CSS is the acronym of “Cascading Style Sheets”. CSS is a computer
+            language for laying out and structuring web pages (HTML or XML).
+            This language contains coding elements and is composed of these
+            “cascading style sheets” which are equally called CSS files (.
+            css).
+          </p>
+        </div>
+        <div class="box-items">
+          <img src="img/js.png" alt="" /><br />
+          <h3>JavaScript</h3>
+          <p>
+            JavaScript (JS) is a cross-platform, object-oriented programming
+            language used by developers to make web pages interactive. It
+            allows developers to create dynamically updating content, use
+            animations, pop-up menus, clickable buttons, control multimedia,
+            etc
+          </p>
+        </div>
+      </div>
+    </section>
+    <hr>
+
+    <section class="projectsection">
+      <h1 class="heading" id="projects">Projects</h1>
+      <div class="projects">
+        <div class="project-item">
+          <a href="https://github.com/" target="_blank">
+            <img src="img/foodRunner.png" alt="" />
+            <h3>Food Runner</h3>
+          </a>
+
+          <p>
+            Food Runner is the food odering App, you can order your Food from your device and
+            get fast home delivery of your order , you can also share your feedback to improve
+            food quality and taste.
+          </p>
+        </div>
+
+        <div class="project-item">
+          <a href="#" target="_blank">
+            <img src="img/BookHub.png" alt="" />
+            <h3>Book Hub</h3>
+          </a>
+
+          <p>
+            BookHub is eBook app in which you can read variours categories
+            of book freely.User can also read the books while travelling you
+            just need to download your favorite book for offline reading.
+          </p>
+        </div>
+      </div>
+    </section>
+    <hr>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>Feel free to get in touch:</p>
+      <ul>
+          <li>Phone: <a href="tel:+1234567890">123-456-7890</a></li>
+          <li>Email: <a href="mailto:sameer@sameer.com">sameer@sameer.com</a></li>
+      </ul>
+  </section>
+  </main>
+  <footer class="footer">
+    <footer class="footer-text">
+      <p>&#169; Copyright Sameer</p>
+    </footer>
+
+    <footer class="footer-iconTop">
+      <a href="#Home"><i class="bi bi-arrow-up"></i></a>
+    </footer>
+  </footer>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed("#element", {
+      strings: ["Web Developer", "Web Designer", "Software Engineer","Web Developer"],
+      typeSpeed: 40,
+    });
+  </script>
+  <link rel="stylesheet" href="script.js" />
+</body>
+
+</html>
